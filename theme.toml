@@ -1,4 +1,4 @@
-name = "Academic"
+name = "Guang Yang"
 license = "MIT"
 licenselink = "https://github.com/HugoBlox/theme-academic-cv/blob/main/LICENSE.md"
 description = "Use the no-code website framework to easily build your site. Choose from 50+ widgets and deploy with one click! Fully personalize your site with themes, plugins, and language packs."
@@ -36,7 +36,7 @@ tags = ["widgets",
         "slide"
         ]
 features = ["page builder", "widgets", "themes", "search", "research publication system", "filterable portfolio",
-            "blog", "create courses", "talks", "events", "slides", "gallery", "contact form"]
+            "blog", "create courses", "slides"]
 
 [author]
   name = "George Cushen"
