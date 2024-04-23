@@ -1,7 +1,7 @@
 ---
 title: Video Event Extraction via Tracking Visual States of Arguments
 authors:
-- Guang Yang
+- admin
 - Manling Li
 - Jiajie Zhang
 - Xudong Lin

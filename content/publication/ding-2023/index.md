@@ -3,7 +3,7 @@ title: Parameter-efficient fine-tuning of large-scale pre-trained language model
 authors:
 - Ning Ding
 - Yujia Qin
-- Guang Yang
+- admin
 - Fuchao Wei
 - Zonghan Yang
 - Yusheng Su
