@@ -3,7 +3,7 @@
 title: Guang Yang
 
 # Name pronunciation (optional)
-name_pronunciation: IPA [kwɑŋ˥˥] [jɑŋ˧˥] 
+name_pronunciation: ''
 
 # Full name (for SEO)
 first_name: Guang
