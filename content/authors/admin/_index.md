@@ -31,16 +31,17 @@ bio: My research interests include AI for music and NLP.
 interests:
   - AI for Music
   - Natural Language Processing
+  - Multimodal Learning
 
 # Education to show in About widget
 education:
   courses:
     - course: PhD in Computer Science
       institution: University of Washington
-      year: 2023
+      year: 2023-present
     - course: BSc in Computer Science
       institution: Tsinghua University
-      year: 2019
+      year: 2019-2023
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -87,9 +88,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
-  # - icon: envelope
-  #   icon_pack: fas
-  #   link: '/#contact'
+  - icon: envelope
+    icon_pack: fas
+    link: 'mailto:gyang1@cs.washington.edu'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/guangyangnlp
@@ -116,5 +117,7 @@ social:
 highlight_name: true
 ---
 
-I'm a first-year PhD student at [Paul G. Allen School, University of Washington](https://www.cs.washington.edu/), advised by Prof. Noah Smith. My research interests include AI for music and NLP. Previously, I was an undergraduate at [Yao Class, Tsinghua University](https://iiis.tsinghua.edu.cn/en/).
+I'm a first-year PhD student at [Paul G. Allen School, University of Washington](https://www.cs.washington.edu/), advised by [Noah Smith](https://nasmith.github.io). My research interests include AI for music and NLP. 
+
+Previously, I was an undergraduate at [Yao Class, Tsinghua University](https://iiis.tsinghua.edu.cn/en/).
 {style="text-align: justify;"}
