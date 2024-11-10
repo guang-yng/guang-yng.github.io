@@ -25,7 +25,7 @@ organizations:
     url: https://www.washington.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include AI for music and NLP.
+bio: My research interests focus on AI for music, natural language processing, and multimodal learning.
 
 # Interests to show in About widget
 interests:
@@ -120,7 +120,7 @@ highlight_name: true
 </br>
 </br>
 
-I'm a first-year PhD student at [Paul G. Allen School, University of Washington](https://www.cs.washington.edu/), advised by [Noah Smith](https://nasmith.github.io). My research interests include AI for music and NLP. 
+I'm a second-year PhD student at [Paul G. Allen School, University of Washington](https://www.cs.washington.edu/), advised by [Prof. Noah Smith](https://nasmith.github.io). My research interests focus on AI for music, natural language processing, and multimodal learning.
 
 Previously, I was an undergraduate at [Yao Class, Tsinghua University](https://iiis.tsinghua.edu.cn/en/).
 {style="text-align: justify;"}
