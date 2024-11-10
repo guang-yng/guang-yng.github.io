@@ -36,9 +36,9 @@ abstract: With the prevalence of pre-trained language models (PLMs) and the pre-
   drastically cutting down computation and storage costs. In general, it demonstrates
   that large-scale models could be effectively stimulated by the optimization of a
   few parameters. Despite the various designs, here we discuss and analyse the approaches
-  under a more consistent and accessible term `delta-tuning', where `delta' a mathematical
+  under a more consistent and accessible term 'delta-tuning', where 'delta' a mathematical
   notation often used to denote changes, is borrowed to refer to the portion of parameters
-  that are `changed' during training. We formally describe the problem and propose
+  that are 'changed' during training. We formally describe the problem and propose
   a unified categorization criterion for existing delta-tuning methods to explore
   their correlations and differences. We also discuss the theoretical principles underlying
   the effectiveness of delta-tuning and interpret them from the perspectives of optimization
