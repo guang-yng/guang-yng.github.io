@@ -1,7 +1,7 @@
 ---
 title: Toward a More Complete OMR Solution
 authors:
-- Guang Yang
+- admin
 - Muru Zhang
 - Lin Qiu
 - Yanming Wan
