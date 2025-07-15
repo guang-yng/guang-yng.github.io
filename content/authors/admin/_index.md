@@ -25,23 +25,23 @@ organizations:
     url: https://www.washington.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests focus on AI for music, natural language processing, and multimodal learning.
+bio: My research interests focus on multimodal learning, AI for music, and natural language processing.
 
 # Interests to show in About widget
-interests:
-  - AI for Music
-  - Natural Language Processing
-  - Multimodal Learning
+# interests:
+#   - AI for Music
+#   - Natural Language Processing
+#   - Multimodal Learning
 
 # Education to show in About widget
-education:
-  courses:
-    - course: PhD in Computer Science
-      institution: University of Washington
-      year: 2023-present
-    - course: BSc in Computer Science
-      institution: Tsinghua University
-      year: 2019-2023
+# education:
+#   courses:
+#     - course: PhD in Computer Science
+#       institution: University of Washington
+#       year: 2023-present
+#     - course: BSc in Computer Science
+#       institution: Tsinghua University
+#       year: 2019-2023
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -91,12 +91,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:gyang1@cs.washington.edu'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/guangyangnlp
-    label: Follow me on Twitter
-    display:
-      header: true
+  # - icon: twitter
+  #   icon_pack: fab
+  #   link: https://twitter.com/guangyangnlp
+  #   label: Follow me on Twitter
+  #   display:
+  #     header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?hl=en&user=2cFxgzEAAAAJ
@@ -109,9 +109,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/resume.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -120,7 +120,7 @@ highlight_name: true
 </br>
 </br>
 
-I'm a second-year PhD student at [Paul G. Allen School, University of Washington](https://www.cs.washington.edu/), advised by [Prof. Noah Smith](https://nasmith.github.io). My research interests focus on AI for music, natural language processing, and multimodal learning.
+I'm a second-year PhD student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by [Prof. Noah Smith](https://nasmith.github.io). My research interests focus on AI for music, natural language processing, and multimodal learning.
 
 Previously, I was an undergraduate at [Yao Class, Tsinghua University](https://iiis.tsinghua.edu.cn/en/).
 {style="text-align: justify;"}
