@@ -1,7 +1,7 @@
 ---
 title: 'LEGATO: Large-scale End-to-end Generalizable Approach to Typeset OMR'
 authors:
-- Guang Yang
+- admin
 - Victoria Ebert
 - Nazif Tamer
 - Luiza Pozzobon
