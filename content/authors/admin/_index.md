@@ -120,7 +120,7 @@ highlight_name: true
 </br>
 </br>
 
-I'm a second-year PhD student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by [Prof. Noah Smith](https://nasmith.github.io). My research interests focus on AI for music, natural language processing, and multimodal learning.
+I'm a second-year PhD student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by [Prof. Noah Smith](https://nasmith.github.io). My research interests focus on multimodal learning, AI for music, and natural language processing.
 
 Previously, I was an undergraduate at [Yao Class, Tsinghua University](https://iiis.tsinghua.edu.cn/en/).
 {style="text-align: justify;"}
