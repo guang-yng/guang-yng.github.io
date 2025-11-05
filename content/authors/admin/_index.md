@@ -91,15 +91,15 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:gyang1@cs.washington.edu'
-  # - icon: twitter
-  #   icon_pack: fab
-  #   link: https://twitter.com/guangyangnlp
-  #   label: Follow me on Twitter
-  #   display:
-  #     header: true
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
     link: https://scholar.google.com/citations?hl=en&user=2cFxgzEAAAAJ
+  - icon: x-twitter
+    icon_pack: fab
+    link: https://x.com/guangyangnlp
+    label: Follow me on X
+    display:
+      header: true
   - icon: github
     icon_pack: fab
     link: https://github.com/guang-yng
@@ -121,7 +121,8 @@ highlight_name: true
 </br>
 
 I'm a third-year PhD student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by [Prof. Noah Smith](https://nasmith.github.io). 
-My research interests center on 
+
+My research interests center on:
 - multimodal learning, with a focus on both understanding and generating content from images and videos; 
 - multimodality in music, particularly on images (music score pictures), symbolic data (structured music scores), and their relationship with natural language.
 
