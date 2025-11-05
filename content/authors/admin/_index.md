@@ -120,7 +120,12 @@ highlight_name: true
 </br>
 </br>
 
-I'm a second-year PhD student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by [Prof. Noah Smith](https://nasmith.github.io). My research interests focus on multimodal learning, AI for music, and natural language processing.
+I'm a third-year PhD student at [Paul G. Allen School of Computer Science & Engineering, University of Washington](https://www.cs.washington.edu/), advised by [Prof. Noah Smith](https://nasmith.github.io). 
+My research interests center on 
+- multimodal learning, with a focus on both understanding and generating content from images and videos; 
+- multimodality in music, particularly on images (music score pictures), symbolic data (structured music scores), and their relationship with natural language.
+
+Please feel free to contact me for potential collaborations.
 
 Previously, I was an undergraduate at [Yao Class, Tsinghua University](https://iiis.tsinghua.edu.cn/en/).
 {style="text-align: justify;"}
