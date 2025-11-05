@@ -7,7 +7,7 @@ authors:
 - Yujie Yi
 - Bin Han
 - Shangbin Feng
-- Guang Yang
+- admin
 - Bingbing Wen
 - Ranjay Krishna
 - Lucy Lu Wang
