@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Guang Yang is a PhD student at the University of Washington, researching multimodal learning, particularly understanding and generating content across modalities.">
+  <meta name="color-scheme" content="light">
+  <title>Guang Yang</title>
+  <link rel="canonical" href="https://guang-yng.github.io/">
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="assets/fonts/newsreader-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/fonts/source-sans-regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <header class="site-header">
+    <nav class="container" aria-label="Main navigation">
+      <a href="#home" aria-current="location">Home</a>
+      <a href="#news">News</a>
+      <a href="#publication">Publication</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro" id="home" aria-labelledby="name">
+      <img class="portrait" src="assets/portrait.jpg" alt="Guang Yang" width="220" height="220" fetchpriority="high">
+      <div class="biography">
+        <h1 id="name">Guang Yang</h1>
+        <p class="affiliation">PhD Student · University of Washington</p>
+        <p>I'm a PhD student at the University of Washington’s Paul G. Allen School of Computer Science &amp; Engineering, where I'm fortunate to be advised by <a href="https://nasmith.github.io/">Prof. Noah A. Smith</a>. My research centers on multimodal learning, with a focus on how models understand and generate content across modalities. Before joining UW, I studied in the <a href="https://iiis.tsinghua.edu.cn/en/">Yao Class at Tsinghua University</a>, where I worked under the guidance of <a href="https://kimiyoung.github.io/">Zhilin Yang</a> and <a href="https://nlp.csai.tsinghua.edu.cn/~lzy/">Zhiyuan Liu</a>.</p>
+        <div class="social-links" aria-label="Contact and profiles">
+          <a href="mailto:gyang1@cs.washington.edu">Email</a>
+          <a href="https://scholar.google.com/citations?hl=en&amp;user=2cFxgzEAAAAJ">Google Scholar</a>
+          <a href="https://github.com/guang-yng">GitHub</a>
+          <a href="https://x.com/guangyangnlp">X</a>
+          <a href="https://www.linkedin.com/in/guang-yang-8a3953269/">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" aria-labelledby="news-heading">
+      <h2 id="news-heading">News</h2>
+      <!-- Newest first. JavaScript shows the first four entries by default. -->
+      <ul class="news-list" id="news-list">
+        <li>
+          <time datetime="2026-09">Sep 2026</time>
+          <p>I’ll be at <a href="https://colm.cc/">COLM 2026</a> in San Francisco, October 6–9! Check out our work on <a href="#mmmg">MMMG</a>, and feel free to reach out for a coffee chat.</p>
+        </li>
+        <li>
+          <time datetime="2026-09">Sep 2026</time>
+          <p><strong>Our work on <a href="#legato">LEGATO</a> is cited in OpenAI’s <a href="https://openai.com/index/gpt-6-astra/">GPT-6 Astra announcement</a>!</strong></p>
+        </li>
+        <li>
+          <time datetime="2026-08">Aug 2026</time>
+          <p><a href="#mmmg">MMMG</a> has been accepted to <a href="https://colm.cc/">COLM 2026</a>!</p>
+        </li>
+        <li>
+          <time datetime="2026-08">Aug 2026</time>
+          <p>Our new preprint, <a href="https://arxiv.org/abs/2608.04511">A Dual Evaluation for Music Transcription</a>, is now on arXiv.</p>
+        </li>
+        <li>
+          <time datetime="2026-07">Jul 2026</time>
+          <p>Our new preprint, <a href="https://arxiv.org/abs/2607.05769">LEGATO 2: Toward Multimodal Sheet Music Recognition and Understanding</a>, is now on arXiv.</p>
+        </li>
+        <li>
+          <time datetime="2026-06">Jun 2026</time>
+          <p>I joined Microsoft for a summer internship!</p>
+        </li>
+        <li>
+          <time datetime="2026-05">May 2026</time>
+          <p>Our new preprint, <a href="https://arxiv.org/abs/2605.24291">Rubato: Transcribing Piano Music with Timestamps</a>, is now on arXiv.</p>
+        </li>
+        <li>
+          <time datetime="2026-01">Jan 2026</time>
+          <p><a href="#legato">LEGATO</a> has been accepted to <a href="https://iclr.cc/virtual/2026/papers.html">ICLR 2026</a>!</p>
+        </li>
+      </ul>
+      <button class="news-toggle" type="button" aria-expanded="false" aria-controls="news-list" hidden>Show more</button>
+    </section>
+
+    <section class="publications" id="publication" aria-labelledby="publication-heading">
+      <h2 id="publication-heading">Publication</h2>
+      <!-- Representative work first. Each article is an independently editable entry. -->
+      <article id="mmmg">
+        <h3>MMMG: A Comprehensive and Reliable Benchmark for Multitask Multimodal Generation</h3>
+        <p class="authors">Jihan Yao, Yushi Hu, Wenyuan Wang, Bin Han, <strong>Guang Yang</strong>, Yujie Yi, Shangbin Feng, Bingbing Wen, Ranjay Krishna, Lucy Lu Wang, Yulia Tsvetkov, Noah A. Smith, Banghua Zhu</p>
+        <p class="venue">COLM · 2026</p>
+        <div class="paper-links">
+          <a href="https://arxiv.org/abs/2505.17613">Paper</a>
+          <a href="https://github.com/yaojh18/MMMG">Code</a>
+        </div>
+      </article>
+      <article id="legato">
+        <h3>LEGATO: Large-scale End-to-end Generalizable Approach to Typeset OMR</h3>
+        <p class="authors"><strong>Guang Yang</strong>, Victoria Ebert, Nazif Can Tamer, Brian Siyuan Zheng, Luiza Pozzobon, Noah A. Smith</p>
+        <p class="venue">ICLR · 2026</p>
+        <div class="paper-links">
+          <a href="https://arxiv.org/abs/2506.19065">Paper</a>
+          <a href="https://github.com/guang-yng/legato">Code</a>
+        </div>
+      </article>
+      <article id="legato-2">
+        <h3>LEGATO 2: Toward Multimodal Sheet Music Recognition and Understanding</h3>
+        <p class="authors"><strong>Guang Yang</strong>*, Brian Siyuan Zheng*, Victoria Ebert, Noah A. Smith</p>
+        <p class="venue">arXiv preprint · 2026 <span class="contribution">(* equal contribution)</span></p>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2607.05769">Paper</a></div>
+      </article>
+      <article id="dual-evaluation">
+        <h3>A Dual Evaluation for Music Transcription</h3>
+        <p class="authors">Ping Wang, <strong>Guang Yang</strong>, Nazif Can Tamer, Victoria Ebert, Noah A. Smith</p>
+        <p class="venue">arXiv preprint · 2026</p>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2608.04511">Paper</a></div>
+      </article>
+      <article id="rubato">
+        <h3>Rubato: Transcribing Piano Music with Timestamps</h3>
+        <p class="authors">Nazif Can Tamer, Victoria Ebert, <strong>Guang Yang</strong>, Noah A. Smith</p>
+        <p class="venue">arXiv preprint · 2026</p>
+        <div class="paper-links"><a href="https://arxiv.org/abs/2605.24291">Paper</a></div>
+      </article>
+      <article id="complete-omr">
+        <h3>Toward a More Complete OMR Solution</h3>
+        <p class="authors"><strong>Guang Yang</strong>, Muru Zhang, Lin Qiu, Yanming Wan, Noah A. Smith</p>
+        <p class="venue">ISMIR · 2024</p>
+        <div class="paper-links">
+          <a href="https://doi.org/10.5281/zenodo.14877483">Paper</a>
+          <a href="https://github.com/guang-yng/completeOMR">Code</a>
+        </div>
+      </article>
+      <article id="video-event-extraction">
+        <h3>Video Event Extraction via Tracking Visual States of Arguments</h3>
+        <p class="authors"><strong>Guang Yang</strong>, Manling Li, Jiajie Zhang, Xudong Lin, Heng Ji, Shih-Fu Chang</p>
+        <p class="venue">AAAI · 2023</p>
+        <div class="paper-links">
+          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/25418">Paper</a>
+          <a href="https://github.com/Shinetism/VStates">Code</a>
+        </div>
+      </article>
+      <article id="parameter-efficient-fine-tuning">
+        <h3>Parameter-efficient fine-tuning of large-scale pre-trained language models</h3>
+        <p class="authors">Ning Ding*, Yujia Qin*, <strong>Guang Yang</strong>, Fuchao Wei, Zonghan Yang, Yusheng Su, Shengding Hu, Yulin Chen, Chi-Min Chan, Weize Chen, Jing Yi, Weilin Zhao, Xiaozhi Wang, Zhiyuan Liu, Hai-Tao Zheng, Jianfei Chen, Yang Liu, Jie Tang, Juanzi Li, Maosong Sun</p>
+        <p class="venue">Nature Machine Intelligence · 2023 <span class="contribution">(* equal contribution)</span></p>
+        <div class="paper-links"><a href="https://doi.org/10.1038/s42256-023-00626-4">Paper</a></div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

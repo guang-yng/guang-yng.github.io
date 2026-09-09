@@ -1,0 +1,97 @@
+@font-face {
+  font-family: Newsreader;
+  src: url("assets/fonts/newsreader-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("assets/fonts/source-sans-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Source Sans 3";
+  src: url("assets/fonts/source-sans-semibold.ttf") format("truetype");
+  font-weight: 600 900;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light;
+  --paper: #fafafa;
+  --ink: #282828;
+  --secondary: #626262;
+  --page-width: 960px;
+  --header-height: 76px;
+  font-family: "Source Sans 3", sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 28px);
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; font-size: 1.125rem; line-height: 1.6; }
+a { color: inherit; text-underline-offset: 0.18em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; }
+strong { font-weight: 600; }
+p { margin: 0 0 1rem; }
+.container { width: min(var(--page-width), calc(100% - 64px)); margin-inline: auto; }
+
+.site-header { position: sticky; top: 0; z-index: 10; background: var(--paper); }
+.site-header nav { display: flex; flex-wrap: wrap; gap: 12px 32px; padding-block: 22px; }
+.site-header a { display: inline-block; text-decoration: none; }
+.site-header a:hover, .site-header a[aria-current] { text-decoration: underline; }
+.skip-link { position: fixed; top: 8px; left: 16px; z-index: 20; padding: 8px 16px; background: var(--paper); transform: translateY(-200%); }
+.skip-link:focus { transform: translateY(0); }
+
+main { padding-top: 60px; padding-bottom: 100px; }
+main > section + section { margin-top: 68px; }
+h1, h2 { font-family: Newsreader, Georgia, serif; font-weight: 400; line-height: 1.15; }
+h1 { font-size: clamp(2.5rem, 5vw, 3.25rem); margin: 0 0 10px; }
+h2 { font-size: 2rem; margin: 0 0 27px; }
+.intro { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 56px; align-items: start; }
+.biography { grid-column: 1; grid-row: 1; }
+.portrait { grid-column: 2; grid-row: 1; width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; object-position: 50% 42%; border-radius: 8px; }
+.affiliation { color: var(--secondary); margin-bottom: 26px; }
+.social-links, .paper-links { display: flex; flex-wrap: wrap; gap: 6px 22px; }
+.social-links { margin-top: 24px; font-size: 1rem; }
+
+.news-list { list-style: none; padding: 0; margin: 0; }
+.news-list li { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 24px; margin-bottom: 16px; }
+.news-list p { margin: 0; }
+.news-list time { color: var(--secondary); white-space: nowrap; font-size: 1rem; padding-top: 2px; }
+.news-toggle { display: block; margin: 0 0 0 114px; padding: 7px 0; border: 0; border-radius: 0; background: none; color: var(--ink); font: inherit; font-size: 1rem; cursor: pointer; }
+.news-toggle:hover { text-decoration: underline; text-underline-offset: 0.18em; }
+
+.publications article + article { margin-top: 31px; }
+.publications h3 { font-size: 1.2rem; line-height: 1.4; font-weight: 600; margin: 0 0 7px; }
+.authors { margin-bottom: 5px; font-size: 1.0625rem; line-height: 1.5; }
+.venue { color: var(--secondary); font-size: 1rem; margin-bottom: 5px; }
+.contribution { margin-left: 6px; }
+.paper-links { font-size: 1rem; }
+
+@media (max-width: 740px) {
+  .container { width: calc(100% - 40px); }
+  .site-header nav { gap: 24px; padding-block: 18px; }
+  main { padding-top: 30px; padding-bottom: 64px; }
+  .intro { display: flex; flex-direction: column; gap: 30px; }
+  .portrait { width: 180px; height: 180px; }
+  main > section + section { margin-top: 52px; }
+  .news-list li { grid-template-columns: 75px minmax(0, 1fr); gap: 16px; }
+  .news-toggle { margin-left: 91px; }
+}
+
+@media (max-width: 380px) {
+  .news-list li { grid-template-columns: 1fr; gap: 3px; }
+  .news-toggle { margin-left: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { scroll-behavior: auto; }
+}
