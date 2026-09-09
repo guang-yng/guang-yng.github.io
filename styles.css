@@ -46,7 +46,7 @@ p { margin: 0 0 1rem; }
 .site-header { position: sticky; top: 0; z-index: 10; background: var(--paper); }
 .site-header nav { display: flex; flex-wrap: wrap; gap: 12px 32px; padding-block: 22px; }
 .site-header a { display: inline-block; text-decoration: none; }
-.site-header a:hover, .site-header a[aria-current] { text-decoration: underline; }
+.site-header a[aria-current] { text-decoration: underline; }
 .skip-link { position: fixed; top: 8px; left: 16px; z-index: 20; padding: 8px 16px; background: var(--paper); transform: translateY(-200%); }
 .skip-link:focus { transform: translateY(0); }
 
