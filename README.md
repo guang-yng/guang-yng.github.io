@@ -19,7 +19,7 @@ You can also open `index.html` directly; all local assets use relative paths.
 - `index.html`: Biography, profile links, news, and publications.
 - `styles.css`: Typography, colors, and responsive layout.
 - `script.js`: News expansion, active navigation, and subtle entrance animations.
-- `assets/`: Portrait, locally hosted fonts, and font licenses.
+- `assets/`: Portrait, G favicon, locally hosted fonts, and font licenses.
 - `.github/workflows/publish.yaml`: GitHub Pages deployment workflow.
 
 ## Editing content
