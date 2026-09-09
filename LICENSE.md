@@ -1,6 +1,20 @@
-MIT License
+# License scope
 
-Copyright (c) 2016-present George Cushen
+The MIT License below applies to the website source code and technical
+documentation, including its HTML structure, CSS, JavaScript, and deployment
+configuration.
+
+It does not apply to the portrait, biographical text, news entries, publication
+content, or other personal materials, including such content embedded in source
+files. This license grants no permission to reuse those materials.
+
+The fonts in `assets/fonts/` are licensed separately under the SIL Open Font
+License 1.1. Their copyright notices and licenses are included in
+`assets/fonts/newsreader-license.txt` and `assets/fonts/source-sans-license.txt`.
+
+## MIT License
+
+Copyright (c) 2026 Guang Yang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

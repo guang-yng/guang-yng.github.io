@@ -20,7 +20,6 @@ You can also open `index.html` directly; all local assets use relative paths.
 - `styles.css`: Typography, colors, and responsive layout.
 - `script.js`: News expansion, active navigation, and subtle entrance animations.
 - `assets/`: Portrait, locally hosted fonts, and font licenses.
-- `publications.bib`: Reference bibliography; not used to generate the page.
 - `.github/workflows/publish.yaml`: GitHub Pages deployment workflow.
 
 ## Editing content
@@ -52,3 +51,11 @@ Local previews do not trigger deployment.
 The redesigned website starts with a fresh repository history. The previous
 website and its history are preserved in the private repository
 `guang-yng/guang-yng.github.io-legacy`.
+
+## License
+
+The website code and technical documentation are licensed under the MIT License,
+copyright (c) 2026 Guang Yang. See [LICENSE.md](LICENSE.md) for the full terms and
+scope. The portrait and personal content, including biography, news, and
+publication content, are excluded from this license. Fonts retain their own
+licenses in `assets/fonts/`.
