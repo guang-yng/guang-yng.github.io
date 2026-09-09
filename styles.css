@@ -76,6 +76,13 @@ h2 { font-size: 2rem; margin: 0 0 27px; }
 .contribution { margin-left: 6px; }
 .paper-links { font-size: 1rem; }
 
+/* Added only by JavaScript; content remains readable when scripting is unavailable. */
+.reveal-pending { opacity: 0; }
+
+@media print {
+  .reveal-pending { opacity: 1; }
+}
+
 @media (max-width: 740px) {
   .container { width: calc(100% - 40px); }
   .site-header nav { gap: 24px; padding-block: 18px; }
@@ -94,4 +101,5 @@ h2 { font-size: 2rem; margin: 0 0 27px; }
 
 @media (prefers-reduced-motion: reduce) {
   :root { scroll-behavior: auto; }
+  .reveal-pending { opacity: 1; }
 }

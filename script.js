@@ -46,27 +46,44 @@ new ResizeObserver(() => {
 window.addEventListener("load", updateNavigation);
 updateNavigation();
 
-// Reveal each content block once, without hiding content before JavaScript runs.
+// Prepare content before observing it so asynchronous scroll callbacks cannot flash it.
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
 if (!reducedMotion.matches && "IntersectionObserver" in window && "animate" in Element.prototype) {
   const animations = new Set();
+  const pending = new Set(document.querySelectorAll(
+    ".portrait, .biography, #news, #publication > h2, .publications article"
+  ));
+  function reveal(element, animate = true) {
+    if (!pending.delete(element)) return;
+    revealObserver.unobserve(element);
+    element.classList.remove("reveal-pending");
+    if (!animate || reducedMotion.matches) return;
+    const animation = element.animate([
+      { opacity: 0, transform: "translateY(10px)" },
+      { opacity: 1, transform: "translateY(0)" }
+    ], { duration: 600, easing: "cubic-bezier(0.22, 1, 0.36, 1)" });
+    animations.add(animation);
+    animation.onfinish = () => animations.delete(animation);
+  }
   const revealObserver = new IntersectionObserver(entries => {
     for (const entry of entries) {
-      if (!entry.isIntersecting) continue;
-      revealObserver.unobserve(entry.target);
-      const animation = entry.target.animate([
-        { opacity: 0, transform: "translateY(10px)" },
-        { opacity: 1, transform: "translateY(0)" }
-      ], { duration: 600, easing: "cubic-bezier(0.22, 1, 0.36, 1)" });
-      animations.add(animation);
-      animation.onfinish = () => animations.delete(animation);
+      if (entry.isIntersecting) reveal(entry.target);
     }
-  }, { threshold: 0.08 });
-  document.querySelectorAll(".portrait, .biography, #news, #publication > h2, .publications article")
-    .forEach(element => revealObserver.observe(element));
+  }, { threshold: 0, rootMargin: "0px 0px 24px 0px" });
+  pending.forEach(element => {
+    element.classList.add("reveal-pending");
+    revealObserver.observe(element);
+  });
+  // Keyboard navigation must never land on a transparent content block.
+  document.addEventListener("focusin", event => {
+    const element = event.target.closest(".reveal-pending");
+    if (element) reveal(element, false);
+  });
   reducedMotion.addEventListener("change", event => {
     if (!event.matches) return;
     revealObserver.disconnect();
+    pending.forEach(element => element.classList.remove("reveal-pending"));
+    pending.clear();
     animations.forEach(animation => animation.cancel());
     animations.clear();
   });
