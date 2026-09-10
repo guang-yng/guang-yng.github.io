@@ -42,6 +42,15 @@
   scroll-padding-top: calc(var(--header-height) + 28px);
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --paper: #181818;
+    --ink: #e7e7e7;
+    --secondary: #aaaaaa;
+  }
+}
+
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
 body { margin: 0; font-size: 1.125rem; line-height: 1.6; }

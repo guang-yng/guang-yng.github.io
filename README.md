@@ -41,6 +41,8 @@ When adding Chinese characters, regenerate the subset and update its CSS unicode
 All fonts are hosted locally, with licenses
 in `assets/fonts/*-license.txt`. Colors and content width are defined in the
 `:root` block of `styles.css`.
+The site follows the system color preference, using a neutral charcoal palette
+in dark mode. Printing keeps the light palette.
 
 **Motion:** Content fades in and moves up slightly when it first enters the
 viewport. Animations respect the system's reduced-motion preference.
