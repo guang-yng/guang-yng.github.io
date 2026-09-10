@@ -19,6 +19,15 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Website WenKai";
+  src: url("assets/fonts/wenkai-names.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  unicode-range: U+5149, U+6768, U+73D6;
+}
+
 :root {
   color-scheme: light;
   --paper: #fafafa;
@@ -40,6 +49,7 @@ a { color: inherit; text-underline-offset: 0.18em; text-decoration-thickness: 1p
 a:hover { text-decoration-thickness: 2px; }
 :focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; }
 strong { font-weight: 600; }
+[lang="zh-Hans"] { font-family: "Website WenKai", sans-serif; }
 p { margin: 0 0 1rem; }
 .container { width: min(var(--page-width), calc(100% - 64px)); margin-inline: auto; }
 
@@ -75,6 +85,12 @@ h2 { font-size: 2rem; margin: 0 0 27px; }
 .venue { color: var(--secondary); font-size: 1rem; margin-bottom: 5px; }
 .contribution { margin-left: 6px; }
 .paper-links { font-size: 1rem; }
+
+main > .disambiguation-section { margin-top: 24px; color: var(--secondary); font-size: 1rem; }
+.disambiguation summary { width: fit-content; cursor: pointer; }
+.disambiguation p { margin-top: 18px; }
+.disambiguation ul { margin: 0; padding-left: 22px; }
+.disambiguation li + li { margin-top: 12px; }
 
 /* Added only by JavaScript; content remains readable when scripting is unavailable. */
 .reveal-pending { opacity: 0; }

@@ -34,7 +34,11 @@ Representative work appears first. Preserve existing article IDs so links from
 news entries continue to work.
 
 **Typography and colors:** Newsreader is used for the name and section headings;
-Source Sans 3 is used for body text. Both fonts are hosted locally, with licenses
+Source Sans 3 is used for body text. Chinese names use a small LXGW WenKai Regular
+subset, internally named Website WenKai, containing U+5149, U+6768, and U+73D6.
+It is derived from `lxgw-wenkai-webfont@1.7.0`, matching the font preview.
+When adding Chinese characters, regenerate the subset and update its CSS unicode range.
+All fonts are hosted locally, with licenses
 in `assets/fonts/*-license.txt`. Colors and content width are defined in the
 `:root` block of `styles.css`.
 
