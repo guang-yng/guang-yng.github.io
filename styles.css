@@ -92,6 +92,7 @@ h2 { font-size: 2rem; margin: 0 0 27px; }
 .publications h3 { font-size: 1.2rem; line-height: 1.4; font-weight: 600; margin: 0 0 7px; }
 .authors { margin-bottom: 5px; font-size: 1.0625rem; line-height: 1.5; }
 .venue { color: var(--secondary); font-size: 1rem; margin-bottom: 5px; }
+.publication-honor { color: var(--ink); }
 .contribution { margin-left: 6px; }
 .paper-links { font-size: 1rem; }
 
