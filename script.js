@@ -1,5 +1,7 @@
 // Keep all news readable without JavaScript; enhance to a four-item preview.
-const newsItems = [...document.querySelectorAll(".news-list > li")];
+const newsList = document.querySelector(".news-list");
+newsList.prepend(...newsList.querySelectorAll(":scope > li[data-pinned]"));
+const newsItems = [...newsList.children];
 const newsToggle = document.querySelector(".news-toggle");
 if (newsItems.length > 4) {
   const olderNews = newsItems.slice(4);

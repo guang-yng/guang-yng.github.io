@@ -24,8 +24,10 @@ You can also open `index.html` directly; all local assets use relative paths.
 
 ## Editing content
 
-**News:** Add a dated `<li>` to `#news-list`, with the newest entries first.
-The first four entries appear by default; Show more reveals older news.
+**News:** Keep pinned entries first, followed by other dated `<li>` entries in
+`#news-list` from newest to oldest. Add `data-pinned` to an entry to keep it above
+new additions; pinned entries retain their order in the HTML.
+The first four entries, including pinned news, appear by default; Show more reveals the rest.
 All entries remain readable when JavaScript is disabled.
 
 **Publications:** Add an `<article>` to `#publication` with the title, authors,

@@ -81,10 +81,12 @@ h2 { font-size: 2rem; margin: 0 0 27px; }
 .social-links, .paper-links { display: flex; flex-wrap: wrap; gap: 6px 22px; }
 .social-links { margin-top: 24px; font-size: 1rem; }
 
+.news-pinned-label { color: var(--secondary); font-size: 0.8125rem; margin: 0 0 12px; }
 .news-list { list-style: none; padding: 0; margin: 0; }
 .news-list li { display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 24px; margin-bottom: 16px; }
 .news-list p { margin: 0; }
 .news-list time { color: var(--secondary); white-space: nowrap; font-size: 1rem; padding-top: 2px; }
+.news-list [data-pinned] + li:not([data-pinned]) { border-top: 1px solid rgb(128 128 128 / 25%); margin-top: 20px; padding-top: 20px; }
 .news-toggle { display: block; margin: 0 0 0 114px; padding: 7px 0; border: 0; border-radius: 0; background: none; color: var(--ink); font: inherit; font-size: 1rem; cursor: pointer; }
 .news-toggle:hover { text-decoration: underline; text-underline-offset: 0.18em; }
 
